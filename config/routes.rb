@@ -4,4 +4,6 @@ Rails.application.routes.draw do
 
   get "/hellooo", controller: "example_pages", action: "example_two"
 
+  get "/web_app", controller: "example_pages", action: "example_three"
+
 end          
